@@ -36,9 +36,9 @@
                     <li>
                         <a href="">
                             {%  if current_user.is_authenticated %}
-                                LoggedIn as <b style="color: deeppink">{{ current_user.user_name.title() }}</b>
+                                Logged In as <b style="color: deeppink">{{ current_user.user_name.title() }}</b>
                             {% else %}
-                                Not LoggedIn
+                                Not Logged In
                             {% endif %}
                         </a>
                     </li>
